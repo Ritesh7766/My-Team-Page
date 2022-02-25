@@ -48,6 +48,7 @@
 
 .profile-pic img {
     max-width: 100%;
+    height: auto;
 }
 
 .profile-pic .role {
