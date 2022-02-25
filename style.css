@@ -106,7 +106,7 @@
 
     .profile-pic img {
         width: 150px;
-        height: 200px;
+        max-height: fit-content;
     }
 }
 
