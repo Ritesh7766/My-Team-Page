@@ -48,7 +48,6 @@
 
 .profile-pic img {
     max-width: 100%;
-    height: auto;
 }
 
 .profile-pic .role {
@@ -100,6 +99,11 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .profile-pic img {
+        width: 150px;
+    }
+}
 
 @media screen and (max-width: 365px) {
     .info p {
