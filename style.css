@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fdfeff;
+}
+
+.container {
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info * {
+    font-size: 1em;
+    font-family: cursive;
+    color: rgb(41, 40, 40);
+}
+
+.info p {
+    white-space: pre-line;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 35%);
+    margin-top: 5%;
+}
+
+.profile-pic {
+    width: 75%;
+}
+
+.profile-pic h4 {
+    margin-top: 2%;
+}
+
+.profile-pic img {
+    max-width: 100%;
+}
+
+.profile-pic .role {
+    writing-mode: vertical-lr;
+    right: 0;
+    font-family: cursive;
+    color: rgb(41, 40, 40);
+    margin-left: 2%;
+}
+
+.profile-pic:nth-child(3n + 2) {
+    margin-top: 30%;
+}
+
+.employee {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 955px) {
+    .team {
+        grid-template-columns: repeat(2, 55%);
+    }
+
+    .header .main-text {
+        margin-bottom: 15%;
+    }
+
+    .header .info {
+        margin-bottom: 5%;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .container {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .profile-pic:nth-child(3n + 2) {
+        margin-top: 0%;
+    }
+
+    .profile-pic:nth-child(2n) {
+        margin-top: 30%;
+    }
+}
+
+
+@media screen and (max-width: 365px) {
+    .info p {
+        white-space: initial;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer * {
+    color: rgb(181, 179, 179);
+}
