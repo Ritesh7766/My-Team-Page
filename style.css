@@ -99,9 +99,14 @@
     }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 400px) {
     .info p {
         white-space: initial;
+    }
+
+    .profile-pic img {
+        width: 150px;
+        height: auto;
     }
 }
 
