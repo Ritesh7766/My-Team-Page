@@ -97,16 +97,6 @@
     .profile-pic:nth-child(2n) {
         margin-top: 30%;
     }
-
-    .profile-pic img {
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .profile-pic img {
-        width: 150px;
-    }
 }
 
 @media screen and (max-width: 365px) {
